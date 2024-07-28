@@ -66,7 +66,10 @@ a {
     width: 150px;
     height: 150px;
     display: flex;
+    animation: spin 12s linear infinite;
+    -webkit-animation: spin 12s linear infinite;
 }
+
 
 .about_solar_panel_img {
     width: 550px;
@@ -87,6 +90,8 @@ a {
 }
 
 .about button {
+    display: flex;
+    align-items: center;
     font-size: 16px;
     border-radius: 20px;
     padding: 20px 25px;
@@ -104,6 +109,10 @@ a {
     transform: scale(1.01);
     background-color: #f6980c;
     box-shadow: 0 16px 32px rgb(246 152 12 / 30%);
+}
+
+.about_info button i {
+    font-size: 18px;
 }
 
 .about_info {
@@ -238,4 +247,3 @@ footer {
 .footer_links a:hover {
     color: #f6980c;
 }
-

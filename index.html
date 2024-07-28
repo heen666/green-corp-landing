@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCorporation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" class="header_logo">
+        <div class="header_buttons">
+            <a href="#contacts">Контакты</a>
+            <button>Заказать</button>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="about_info">
+            <h1>Солнечные панели GreenRobotic</h1>
+            <p>Производите дешевую и экологически чистую электроэнергию из солнечного света</p>
+            <button>Узнать подробнее</button>
+        </div>
+
+        <div class="about_img">
+            <img class="about_sun_img" src="img/sun.png">
+            <img class="about_solar_panel_img" src="img/solar-panel.png">
+
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="form_container">
+            <h1>Оставьте свои контакты</h1>
+            <p>Поможем подобрать модель.<br>Выбрать удобный вариант доставки и установки.<br>Гарантия качества и безопасности.</p>
+
+            <form>
+                <div class="form_inputs">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" placeholder="Введите имя" id="name">
+                </div>
+
+                <div class="form_inputs">
+                    <label for="email">Электронная почта:</label>
+                    <input type="email" placeholder="*****@gmail.com" id="email">
+                </div>
+
+                <div class="form_inputs">
+                    <label for="phone">Номер телефона:</label>
+                    <input type="tel" placeholder="(___)___-__-__" id="phone">
+                </div>
+
+                <div class="form_inputs">
+                    <label for="budget">Предполагаемый бюджет:</label>
+                    <select id="budget">
+                        <option value="" disabled selected>Выберите вариант</option>
+                        <option value="10-30">10000 - 30000₴</option>
+                        <option value="30-60">30000 - 60000₴</option>
+                        <option value="60-100">60000 - 100000₴</option>
+                        <option value="100+">100000₴ и более</option>
+                    </select>
+                </div>
+
+                <button class="form_submit" type="submit">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer_container">
+            <div class="footer_links">
+                <h3>Позвонить нам:</h3>
+                <a href="tel:099-999-99-99"><i class='bx bxs-phone-call'></i>099-999-99-99</a>
+            </div>
+            <div class="footer_links">
+                <h3>Написать нам:</h3>
+                <a href="mailto:greencorporation@solar.com"><i class='bx bx-envelope' ></i>greencorporation@solar.com</a>
+            </div>
+            <div class="footer_links">
+                <h3>Решения для дома:</h3>
+                <a href="#"><i class='bx bxs-ev-station'></i>Солнечные панели GreenRobotic</a>
+                <a href="#"><i class='bx bx-station' ></i>Системы солнечных панелей GreenStation</a>
+            </div>
+            <div class="footer_links">
+                <h3>Компания:</h3>
+                <a href="#"><i class='bx bxs-face' ></i>Контакты</a>
+                <a href="#"><i class='bx bx-briefcase' ></i>Вакансии</a>
+                <a href="#"><i class='bx bx-news' ></i>Новости</a>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <p>GreenCorp © 2024.</p>
+        </div>
+    </footer>
+</body>
+</html>
